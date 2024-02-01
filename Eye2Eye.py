@@ -147,6 +147,7 @@ if __name__ == "__main__":
     
     # Obtener y mostrar información técnica del sitio web.
     servidor, cms, lenguaje, js_framework = obtener_info_sitio(f"https://{dominio}")
+    print("Creado por G0dsp")
     print(f"\nSERVIDOR --> {servidor}")
     print(f"CMS DETECTADO --> {cms}")
     print(f"LENGUAJE DETECTADO --> {lenguaje}")
